@@ -22,5 +22,6 @@ Document detection description
   
   s.ios.deployment_target = '12.0'
   s.ios.vendored_frameworks = 'CFDocumentDetection.framework'
+  s.dependency 'TensorFlowLiteSwift', '~> 2.1.0'
  
 end
