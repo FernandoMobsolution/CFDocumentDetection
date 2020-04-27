@@ -1,0 +1,11 @@
+framework module CFDocumentDetection {
+  umbrella header "CFDocumentDetection.h"
+
+  export *
+  module * { export * }
+}
+
+module CFDocumentDetection.Swift {
+    header "CFDocumentDetection-Swift.h"
+    requires objc
+}
